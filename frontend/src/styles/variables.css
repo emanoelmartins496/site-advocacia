@@ -1,0 +1,10 @@
+/* frontend/src/styles/variables.css */
+:root {
+  --cor-fundo: #0a0a0a;             /* Um preto profundo, menos agressivo que o #000 */
+  --cor-superficie: #141414;        /* Uma superfície ligeiramente mais clara para cards e elementos elevados */
+  --cor-borda: #2e2e2e;             /* A borda que você pediu. Subtil, mas presente. */
+  --cor-dourado: #c5a46d;           /* Um dourado um pouco menos saturado, mais elegante */
+  --cor-dourado-hover: #e0bb7f;     /* Um dourado mais brilhante para interações */
+  --cor-texto-principal: #f5f5f5;   /* Branco de alta legibilidade */
+  --cor-texto-secundario: #a3a3a3;  /* Cinza claro para textos de apoio, com contraste testado */
+}

@@ -1,0 +1,33 @@
+/* frontend/src/styles/navbar.css */
+.navbar-custom {
+  background-color: #000000 !important;
+  padding: 10px 0; /* Padding vertical reduzido para dar espaço ao logo */
+  border-bottom: 1px solid var(--cor-borda);
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+
+.navbar-logo {
+  height: 80px; /* Logo significativamente maior */
+  width: auto;
+}
+
+.nav-link {
+  color: var(--cor-texto-secundario) !important;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px; /* Mais espaçamento para um look premium */
+  font-size: 0.85rem;
+  margin: 0 18px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--cor-dourado) !important;
+  border-bottom-color: var(--cor-dourado);
+}

@@ -1,0 +1,56 @@
+/* frontend/src/styles/buttons.css */
+
+.btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px; /* Aumentado para consistência */
+  padding: 16px 42px; /* Ligeiramente maior */
+  border-radius: 0;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 1.5;
+}
+
+.btn-primario {
+  background-color: var(--cor-dourado);
+  border: 2px solid var(--cor-dourado);
+  color: #000;
+}
+
+.btn-primario:hover {
+  background-color: var(--cor-dourado-hover);
+  border-color: var(--cor-dourado-hover);
+  color: #000;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-fantasma {
+  background-color: transparent;
+  border: 2px solid var(--cor-borda);
+  color: var(--cor-texto-secundario);
+}
+
+.btn-fantasma:hover {
+  border-color: var(--cor-dourado);
+  color: var(--cor-dourado);
+}
+
+.btn-card {
+  background-color: transparent;
+  border: 1px solid var(--cor-dourado);
+  color: var(--cor-dourado);
+  font-weight: 400;
+  padding: 12px 28px; /* Aumentado */
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 0;
+  letter-spacing: 1px;
+}
+
+.btn-card:hover {
+  background-color: var(--cor-dourado);
+  color: #000;
+}

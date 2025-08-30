@@ -1,0 +1,38 @@
+/* frontend/src/styles/lists.css */
+
+.list-group {
+  border: 1px solid var(--cor-borda);
+  border-radius: 0 !important;
+}
+
+.list-group-item {
+  background-color: var(--cor-superficie) !important;
+  color: var(--cor-texto-secundario) !important;
+  border-bottom: 1px solid var(--cor-borda) !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
+  padding: 1rem 1.5rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.list-group-item:last-child {
+  border-bottom: none !important;
+}
+
+.list-group-item:hover {
+  background-color: var(--cor-dourado) !important;
+  color: #000 !important;
+}
+
+/* --- REGRA CORRIGIDA E MELHORADA --- */
+.card-header, .card-header h5 {
+    background-color: var(--cor-superficie) !important;
+    border-bottom: 1px solid var(--cor-borda) !important;
+    border-radius: 0 !important;
+    color: var(--cor-dourado) !important; /* Corrigido para dourado */
+    font-family: 'Playfair Display', serif; /* Alinha a fonte com outros títulos */
+    text-transform: uppercase; /* Deixa o estilo mais sofisticado */
+    letter-spacing: 1.5px;
+    font-size: 1rem;
+}

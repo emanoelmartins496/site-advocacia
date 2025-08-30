@@ -1,0 +1,60 @@
+/* frontend/src/styles/footer.css */
+
+.footer-final {
+  background-color: #000000;
+  color: var(--cor-texto-secundario);
+  font-size: 0.95rem; /* Ligeiramente maior */
+  /* O padding-top foi movido para o .footer-main para ser condicional */
+}
+
+.footer-main {
+  padding-top: 80px; /* Espaçamento no topo apenas quando o rodapé principal existe */
+  padding-bottom: 50px;
+  /* A borda foi movida para a barra inferior */
+}
+
+.footer-col {
+  margin-bottom: 30px;
+}
+
+.footer-title {
+  color: var(--cor-texto-principal);
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3rem; /* Aumentado */
+  margin-bottom: 2rem;
+}
+
+.footer-links li {
+  margin-bottom: 14px;
+}
+
+.footer-links a {
+  color: var(--cor-texto-secundario);
+  text-decoration: none;
+  transition: color 0.3s ease, padding-left 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: var(--cor-dourado);
+  padding-left: 5px;
+}
+
+.footer-contact-info {
+  line-height: 2; /* Mais espaçamento entre linhas */
+}
+
+.footer-bottom-bar {
+  padding: 30px 0;
+  border-top: 1px solid var(--cor-borda); /* A linha divisória agora está aqui, em todas as páginas */
+}
+
+.copyright-text {
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+.footer-bottom-logo {
+  max-height: 50px; /* Ligeiramente maior */
+  width: auto;
+  opacity: 0.8;
+}

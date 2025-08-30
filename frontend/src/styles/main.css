@@ -1,0 +1,88 @@
+/* frontend/src/styles/main.css */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;400&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: var(--cor-texto-secundario);
+  background-color: #000000;
+  line-height: 1.9; /* Aumentado para mais respiro entre linhas */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  color: var(--cor-dourado);
+  font-weight: 700;
+  letter-spacing: 1.5px; /* Aumentado para mais elegância */
+}
+
+/* --- Seção Hero --- */
+.hero {
+  background-color: #000000;
+  padding: 160px 0; /* Aumentado para mais impacto */
+  border-bottom: 1px solid var(--cor-borda);
+}
+
+.titulo-hero {
+  font-size: 4rem; /* Título ainda mais imponente */
+  color: var(--cor-texto-principal);
+  margin-bottom: 2rem;
+}
+
+.subtitulo-hero {
+  font-size: 1.3rem; /* Ligeiramente maior */
+  color: var(--cor-texto-secundario);
+  margin-bottom: 3.5rem;
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.botoes-hero .btn {
+  margin: 0 15px;
+}
+
+/* --- Seções Genéricas --- */
+.titulo-secao {
+  font-size: 3rem; /* Aumentado */
+  margin-bottom: 1.5rem;
+}
+
+.subtitulo-secao {
+  font-size: 1.2rem;
+  color: var(--cor-texto-secundario);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* --- Seção Especialidades --- */
+.secao-especialidades {
+  padding: 120px 0; /* Aumentado */
+  background-color: var(--cor-superficie);
+  border-bottom: 1px solid var(--cor-borda);
+}
+
+.card-especialidade {
+  background-color: transparent;
+  border: 1px solid var(--cor-borda);
+  padding: 3rem; /* Espaçamento interno muito mais generoso */
+  height: 100%;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.card-especialidade:hover {
+  transform: translateY(-10px);
+  border-color: var(--cor-dourado);
+}
+
+.titulo-card {
+  font-size: 1.7rem; /* Aumentado */
+  margin-bottom: 1.5rem;
+  color: var(--cor-texto-principal);
+}
+
+.texto-card {
+  color: var(--cor-texto-secundario);
+  margin-bottom: 2.5rem;
+}
