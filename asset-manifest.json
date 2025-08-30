@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/site-advocacia/static/css/main.886f6fe7.css",
-    "main.js": "/site-advocacia/static/js/main.43922fbc.js",
+    "main.js": "/site-advocacia/static/js/main.b1478fd7.js",
     "index.html": "/site-advocacia/index.html",
     "main.886f6fe7.css.map": "/site-advocacia/static/css/main.886f6fe7.css.map",
-    "main.43922fbc.js.map": "/site-advocacia/static/js/main.43922fbc.js.map"
+    "main.b1478fd7.js.map": "/site-advocacia/static/js/main.b1478fd7.js.map"
   },
   "entrypoints": [
     "static/css/main.886f6fe7.css",
-    "static/js/main.43922fbc.js"
+    "static/js/main.b1478fd7.js"
   ]
 }
